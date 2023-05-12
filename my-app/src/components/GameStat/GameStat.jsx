@@ -29,6 +29,7 @@ export default function GameStat() {
       {data.map((el) => {
         return <p style={{
           border: '1px solid black',
+          backgroundColor: 'yellow',
           textAlign: 'center'
         }}>{el.team.city}</p>
       })}
