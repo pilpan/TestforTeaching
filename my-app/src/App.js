@@ -5,8 +5,13 @@ function App() {
   return (
     <>
     Hello project
+    <div style={{
+      display:'flex',
+      flexDirection: 'row'
+    }}>
     <PlayersStat />
     <GameStat/>
+    </div>
     </>
   );
 }
